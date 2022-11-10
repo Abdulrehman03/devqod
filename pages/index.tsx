@@ -8,7 +8,7 @@ export default function Home() {
     <Seo templateTitle='Home'/>
     <div className='m-auto'>
 
-    <h1 className='bg-transparent main text-4xl sm:text-6xl text-center  text-white'>DEVCOD</h1>
+    <h1 className='bg-transparent main text-4xl sm:text-6xl text-center  text-white'>DEVQOD</h1>
 
     <p className='text-white text-center text-md sm:text-xl my-8 msg'>---------Coming Soon---------</p>
     </div>
