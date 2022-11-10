@@ -1,24 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Over-There';
+  src: url('../src/assests/font/Over-There.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../src/assests/font/SpaceGrotesk-Light.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
 body {
-  background-color: #010;
-  font-family: 'Muli light', sans-serif;
-  background-image: url(http://www.styleshout.com/templates/preview/Ceevee10/images/header-background.jpg)
+  padding: 0;
+  margin: 0;
+    background-color: #161d29;
 }
 
-h1, p {
-  text-align: center;
-  color: #f1f1f1;
+.main {
+  font-family: "Over-There";
+}
+.msg {
+  font-family: 'Space Grotesk';
+  animation: blinker 1s linear infinite;
 }
 
-h1{
-  padding-top: 20%
-}
-
-hr { 
-  border: shade #E3E3E3; 
-  border-width: 1px 0 0; 
-  clear: both; 
-  /*margin: 11px 0 30px; */
-  height: 0; 
-  width: 40%;
-  /* align="center"; */
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
