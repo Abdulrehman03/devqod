@@ -5,8 +5,8 @@ import Script from 'next/script';
 import { openGraph } from '../lib/helper';
 
 const defaultMeta = {
-  title: 'DEVCOD',
-  siteName: 'DEVQOD',
+  title: 'Devqod',
+  siteName: 'Devqod',
   description: 'Web and Mobile App Development Company',
   url: 'www.devqod.com',
   type: 'website',
@@ -75,6 +75,8 @@ export default function Seo(props: SeoProps) {
           />
         </>
       )}
+      <meta name="keywords" content="HTML, CSS, JavaScript, React, Nodejs, Nextjs, Next, vercel, node, express, reactjs, sass, scss, yarn"/>
+      <meta name="keywords" content="landing, page, ecommerce, sass, application, website, app"/>
 
       {/* Favicons */}
       {/* {favicons.map((linkProps) => (

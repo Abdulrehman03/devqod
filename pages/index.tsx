@@ -10,7 +10,7 @@ export default function Home() {
 
     <h1 className='bg-transparent main text-4xl sm:text-6xl text-center  text-white'>DEVQOD</h1>
 
-    <p className='text-white text-center text-md sm:text-xl my-8 msg'>---------Coming Soon---------</p>
+    <p className='text-white text-center text-md sm:text-xl mt-8 msg'>---------Coming Soon---------</p>
     </div>
    </div>
   )
