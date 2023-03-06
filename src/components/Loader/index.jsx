@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 import styles from './index.module.css'
 
 const Loader = () => {
-  // gsap.fromTo( ".circle",{ x: -40, fill: 'blue', }, { x: 40, fill: 'green' });
   const progressRef = useRef(null);
   const [count, setCount] = useState(1);
 
@@ -22,11 +21,16 @@ const Loader = () => {
   return (
     <div className="container m-auto">
       <div className={styles.loaderBody}>
-        <h1 className={styles.countText}>{count}%</h1>
+      <div className={styles.loaderContent}>
+      <h1 className={styles.countText}>{count}%</h1>
+     
         <div className={styles.progressBody}>
           <div ref={progressRef} className={styles.progressBar}></div>
         </div>
       </div>
+        <div className={styles.info}><p>By</p><p>Abdul-Rehman | Saad Bin Khalid</p></div>
+      </div>
+    
     </div>
   );
 };

@@ -6,6 +6,7 @@ align-items: center; */
 color: white;
 height: 100vh;
 padding-top: 40vh;
+position: relative;
 }
 
 
@@ -24,4 +25,18 @@ padding-top: 40vh;
 }
 .progressBody{
     background-color: #666666;
+}
+
+.loaderContent{
+    position: absolute;
+    bottom: 200px;
+    width: 100%;
+}
+
+.info{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.5;
 }
