@@ -1,0 +1,27 @@
+.loaderBody{
+
+/* display: flex;
+justify-content: center;
+align-items: center; */
+color: white;
+height: 100vh;
+padding-top: 40vh;
+}
+
+
+
+.progressBar{
+    /* width: 10%; */
+    height: 2px;
+    background-color: white;
+}
+
+.countText{
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.progressBody{
+    background-color: #666666;
+}
