@@ -36,3 +36,16 @@ body {
     opacity: 0;
   }
 }
+
+
+body {
+  cursor: none;
+}
+
+
+.bold-cursor:hover ~ .pointer{
+
+  display: none;
+
+}
+
